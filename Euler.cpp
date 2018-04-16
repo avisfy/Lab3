@@ -11,7 +11,7 @@ void euler()
 	double fxy = 0;
 
 	std::cout << std::fixed;
-	std::cout.precision(4);
+	std::cout.precision(6);
 	//std::cout << "\n" << "x" << "\ty" << "\tf(x, y)\n";
 	std::cout << "\n" << "x" << "\ty\n";
 	while ((x<xEnd) || (fabs(x-xEnd)<eps))

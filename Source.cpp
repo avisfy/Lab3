@@ -2,13 +2,16 @@
 
 void euler();
 void r_t();
+void analiti4();
 
 int main()
 {
-	std::cout << "Euler:\n";
+	std::cout << "Euler:";
 	euler();
-	std::cout << "Runge-Kutta:\n";
+	std::cout << "\nRunge-Kutta:";
 	r_t();
+	std::cout << "\nAnaliticheski:";
+	analiti4();
 	std::cout << std::endl;
 	system("pause");
 	return 0;
